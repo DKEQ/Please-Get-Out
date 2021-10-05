@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NextLevel
+  - Key1
+  - Key2
+  - SameLevel
+  - Hazard
+  - TeleportEventType1
+  - TOP
+  - BOTTOM
+  - FORWARD
+  - BACK
+  - LEFT
+  - RIGHT
+  - Ground
+  - MIC_Key
+  - Green_Key
+  - Blue_Key
+  - Red_Key
+  - Activation 1
+  - PC_Penalty
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - ViewModel
+  - Vault
+  - Wallrun
+  - Ledge
+  - TopWater
+  - UnderWater
+  - Overlay
+  - OverlayGun
+  - DamageZone
+  - Interactable
+  - Props
+  - HazardProp
+  - TeleportEvent
+  - Boundary
+  - ActiveMobileColliders
+  - LEVEL
+  - Non
+  - Tooltip_Colliders
+  - MIC_Collider
+  - EndOfLevel_Colliders
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 4158965461
+    locked: 0

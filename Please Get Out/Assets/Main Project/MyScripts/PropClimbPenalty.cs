@@ -1,0 +1,40 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PropClimbPenalty : MonoBehaviour
+{
+///////////////////////////START OF CODE/////////////////////////////
+
+///////////////////////////////////////////////////////////////////////
+
+//////////////////////////VARRIBLES///////////////////////////////////
+public Transform Penalty_Target;
+public GameObject MIC_Object;
+
+public PlayerMovement playMove;
+public PhysGun physGun;
+////////////////////////////////////////////////////////////////////////
+
+////////////////////////FUNCTIONS//////////////////////////////////////
+
+void Start()
+{
+    //charController = GetComponent<CharacterController>();
+}
+void OnTriggerStay(Collider other)
+{
+    if  (other.gameObject.tag == "PC_Penalty" && playMove.grounded && physGun._isGrabbed)
+    {
+        MIC_Object.transform.position = Penalty_Target.transform.position;
+        Debug.Log("Prop Climb Penalty Activated");
+    }
+
+    
+}
+//////////////////////////////////////////////////////////////////////
+
+
+///////////////////////END OF CODE///////////////////////////////////////////
+
+}

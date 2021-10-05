@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Persistant Scene.unity
+    guid: daf2f5b089dbb17459713fc89e2c3e35
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Game Dev Intro.unity
+    guid: 4d3c1f6f625fd044d9a29e7794ea416b
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Main Menu Redux 2.unity
+    guid: 8afc26b031965e846bf468b896e4a81e
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 1 Redux.unity
+    guid: aca4e904a5204454792d888a518ab16a
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 2 Redux.unity
+    guid: c4fe4e107413f3c44a33b850aaf7a9e5
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 3 Redux.unity
+    guid: f19131811d6cfa4448ff400b6bf33727
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 4 Redux.unity
+    guid: 82778147af6c46a48a6e26ae829a9755
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 5 Redux.unity
+    guid: b9792094991b5494097cc883ea006cb5
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 6 Redux.unity
+    guid: fe43c4d6c88283e46bf2bffeafa72dba
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 7 Redux.unity
+    guid: 6057ec14cfa43194d9285e1e9f146e19
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 8 Redux.unity
+    guid: a6475dcd7c2338c4f82da6644e4fdaff
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 9 Redux.unity
+    guid: f04fc3876b9292d48af9c62fc485d61c
+  - enabled: 1
+    path: Assets/Main Project/Scenes/REDESIGN/Redux/Level 10 Redux.unity
+    guid: dcdb33951d05bd544bc42d89cbde5b4c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 92a9bf7695b084d4193e76242cf917d9,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b87f1b0ea1245b44bbf22e60820679a4,
+      type: 2}
